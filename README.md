@@ -1,5 +1,6 @@
 # Review-Tagger-Recommendation-Engine
-![CLV](https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Fallbusiness%2Ffiles%2F2017%2F06%2Fcustomer-retention-1-1200x800.jpg)
+![CLV](https://cdn-images-1.medium.com/max/800/1*t870WiCzb-5zkLuGjDuDAA.png)
+
 ## INTRODUCTION
 E-commerce industries are heavily reliant on marketing for Customer Acquisition and Retention. Recommendation Engines and Product reviews are an essential part of an online store's branding and marketing. They help build trust and loyalty therefore providing the customer accessibility to the their true demand and apt subset of reviews is crucial to reduce the conversion period. 
 
