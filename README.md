@@ -44,10 +44,8 @@ Finally, provide the overall analysis
 3. 96 products have no reviews. Out of no review products, 86% are imported. Most of these clothes are made of polyester or cotton and are either printed or floral, are wrap dresses or tops/skirts with zippers. We don't see any correlation between no_reviews items - not liked by a lot and rental and retail prices.
 
 ## **Modeling** - 
-  * Review Tagger: For the model implementation, we have follwed 
-  
-  
-  * Segmentation: To achieve segmentation, we perform clustering on all 3 metrics individually - Recency, Frequency, and Monetary value. k-means is used as the model and based on the optimum number of clusters, we perform weighted sum and achieve an overall score. After analyzing the mean Recency, Frequency, and monetary values of these clusters, we can observe three major groups being formed. We will label then Low Value, Mid Value, and High-Value customers
+  * Review Tagger: For the model implementation, we have implemented Universal Sentence Encoder on our review data to create 512 dimensional embeddings. On the output, we ran PCA to reduce the dimensional space while retaining information. Additionally since the data was already embedded, interpretability was not a concern. Afterwards we performed Sentiment Analysis using Logistic Regression and Random Forest to predict the sentiment of the review. 
+
 
 
 
